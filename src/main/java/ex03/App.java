@@ -58,6 +58,6 @@ public class App {
 
     public static void main(String[] args) throws URISyntaxException, ClassNotFoundException, InstantiationException, IllegalAccessException {
         List<Object> instances = componentScan("ex03");
-        findUri(instances, "/login");
+        findUri(instances, "/write");
     }
 }
